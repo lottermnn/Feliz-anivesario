@@ -64,6 +64,7 @@ body {
     transition: .4s;
 }
 
+/*Fazer alteração no font-family*/
 .happy,
 .toyou {
     position: relative;
@@ -103,6 +104,7 @@ body {
     border-radius: 50%;
 }
 
+/*trocar as cores das bandeiras*/
 .decorations:before,
 .decorations:after,
 .decorationsTwo:before,
@@ -168,7 +170,9 @@ body {
     left: 60px;
     top: 213px;
 }
+/*Fim cores bandeiras*/
 
+/*rever as cores do bolo*/
 .cake {
     position: absolute;
     overflow: hidden;
@@ -192,6 +196,7 @@ body {
     box-shadow: 10px 5px #f15bb5, 20px 0px #432818, 30px 2px #f15bb5, 40px 5px #432818, 50px 5px #f15bb5, 60px 0px #432818, 70px 5px #f15bb5, 80px 5px #432818, 90px 5px #f15bb5;
 }
 
+/*Fim cores Bolo*/
 .plate:before {
     content: "";
     position: absolute;
@@ -249,6 +254,7 @@ body {
     margin: 25px;
 }
 
+/*Trocar color Font-family */
 p {
     font-family: 'Dancing Script', cursive;
     font-weight: 600;
