@@ -75,6 +75,8 @@ hover: quando passar o maose por cima;
 
 /**********/
 
+
+/*Parte da frente do cartão*/
 /*Style the front of the card*/
 .cardFront {
     position: relative;
@@ -87,7 +89,9 @@ hover: quando passar o maose por cima;
     transition: .4s;
 }
 
-/*Fazer alteração no font-family*/
+/*Fazer alteração no font-family
+classe--feliz-para voce
+*/
 .happy,
 .toyou {
     position: relative;
@@ -127,6 +131,8 @@ hover: quando passar o maose por cima;
     border-radius: 50%;
 }
 
+
+/*banddeiras do cartão da part-frente*/
 /*trocar as cores das bandeiras*/
 .decorations:before,
 .decorations:after,
@@ -142,6 +148,12 @@ hover: quando passar o maose por cima;
     height: 0;
 }
 
+/*Decorações:
+    Borda-superior:40px solida, e cor rosa;
+    topo:297px
+    esquerda:210px
+    transforme:rotativo(-5deg).
+*/
 .decorations:before {
     border-top: 40px solid #f15bb5;
     top: 297px;
@@ -200,7 +212,12 @@ topo de 213px
 }
 /*Fim cores bandeiras*/
 
-/*rever as cores do bolo*/
+
+
+/*rever as cores do bolo
+
+
+*/
 .cake {
     position: absolute;
     overflow: hidden;
