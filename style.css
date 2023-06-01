@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair:wght@400;500;600;700&display=swap');
 
+/*
+flexivel o corpo,
+alinhar itens ao centro,
+alinhar os conteiner ao centro,
+height de preencimento de 100%(vh),
+fundo imagem,
+fundo secundario da cor de azul.
+*/
 body {
     display: flex;
     align-items: center;
@@ -9,6 +17,16 @@ body {
     background-repeat: no-repeat;*/
     background-color: rgba(68, 185, 231, 0.6);
 }
+
+/*
+posicionamento relativo,
+largura de 250px,
+altura de 350px,
+cursor(ponteiro) ponteiro,
+--
+--
+transição de 4s.
+*/
 
 /*Create the card container*/
 .birthdayCard {
@@ -21,6 +39,11 @@ body {
     transition: 4s;
 }
 
+/*
+hover: quando passar o maose por cima;
+    transformar
+    box-shadow
+*/
 .birthdayCard:hover {
     transform: perspective(2500px) rotate(5deg);
     box-shadow: inset 100px 20px 100px rgba(0, 0, 0, .15), 0 10px 100px rgba(0, 0, 0, 0.3);
@@ -162,6 +185,11 @@ body {
     transform: rotate(-30deg);
 }
 
+
+/*
+Posicionando, largura de 130, altura de 5px, fundo de cor azul, esquerda a 60px
+topo de 213px
+*/
 .plate {
     position: absolute;
     width: 130px;
