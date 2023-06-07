@@ -273,7 +273,7 @@ p {
 .text {
     overflow: hidden;
     /* Garante que o texto não vaze para fora da área */
-    border-right: .15em solid orange;
+    border-right: .15em solid rgb(166, 193, 209);
     /* Adiciona o efeito de cursor piscando */
     white-space: nowrap;
     /* Impede a quebra de linha */
@@ -286,7 +286,7 @@ p {
 .name {
     overflow: hidden;
     /* Garante que o texto não vaze para fora da área */
-    border-right: .15em solid orange;
+    border-right: .15em solid rgb(166, 193, 209);
     /* Adiciona o efeito de cursor piscando */
     white-space: nowrap;
     /* Impede a quebra de linha */
@@ -302,7 +302,7 @@ p {
 }
 
 @keyframes blink-caret {
-    from, to {border-color: orange;}
-    50% {border-color: orange;}
+    from, to {border-color: rgb(166, 193, 209);}
+    50% {border-color:rgb(166, 193, 209);}
 }
 
