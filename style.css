@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair:wght@400;500;600;700&display=swap');
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
     background-image: url(./feliz_aniversario/assets/f227098a63ca692f9539572dbcb7398f.jpg);
     background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(192, 155, 196, 0.658);
 }
 
@@ -41,7 +43,6 @@ body {
     display: none;
 }
 
-/**********/
 
 .birthdayCard:hover .wrap-decoTwo {
     display: none;
@@ -109,7 +110,7 @@ body {
 }
 */
 
-/*banddeiras do cartão da part-frente*/
+
 /*trocar as cores das bandeiras*/
 /*.decorations:before,
 .decorations:after,
