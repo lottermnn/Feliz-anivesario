@@ -1,32 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair:wght@400;500;600;700&display=swap');
 
-/*
-flexivel o corpo,
-alinhar itens ao centro,
-alinhar os conteiner ao centro,
-height de preencimento de 100%(vh),
-fundo imagem,
-fundo secundario da cor de azul.
-*/
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /*background-image: url(./feliz_aniversario/assets/bilheterias-anime-Japão.png);
-    background-repeat: no-repeat;*/
-    background-color: rgba(68, 185, 231, 0.6);
+    /*background-image: url(./feliz_aniversario/assets/bilheterias-anime-Japão.png);*/
+    background-repeat: no-repeat;
+    background-color: rgba(192, 155, 196, 0.658);
 }
 
-/*
-posicionamento relativo,
-largura de 250px,
-altura de 350px,
-cursor(ponteiro) ponteiro,
---
---
-transição de 4s.
-*/
 
 /*Create the card container*/
 .birthdayCard {
@@ -37,16 +20,13 @@ transição de 4s.
     transform-style: preserve-3d;
     transform: perspective(2500px);
     transition: 4s;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.4), -2px -2px 4px rgba(0, 0, 0, 0.4);
 }
 
-/*
-hover: quando passar o maose por cima;
-    transformar
-    box-shadow
-*/
+
 .birthdayCard:hover {
     transform: perspective(2500px) rotate(5deg);
-    box-shadow: inset 100px 20px 100px rgba(0, 0, 0, .15), 0 10px 100px rgba(0, 0, 0, 0.3);
+    box-shadow: 100px 20px 100px rgba(0, 0, 0, .15), 0 10px 100px rgba(0, 0, 0, 0.3);
 }
 
 .birthdayCard:hover .cardFront {
@@ -57,7 +37,6 @@ hover: quando passar o maose por cima;
     display: none;
 }
 
-/*pode remover se quiser deixar o desenho*/
 .birthdayCard:hover .wrap-deco {
     display: none;
 }
@@ -68,19 +47,19 @@ hover: quando passar o maose por cima;
     display: none;
 }
 
-/*pode remover se quiser deixar o bolo*/
 .birthdayCard:hover .plate {
     display: none;
 }
-
-/**********/
-
 
 /*Parte da frente do cartão*/
 /*Style the front of the card*/
 .cardFront {
     position: relative;
-    background-color: rgb(206, 88, 206);
+    background: hsla(313, 38%, 61%, 1);
+    background: linear-gradient(120deg, hsla(313, 38%, 61%, 1) 23%, hsla(217, 100%, 77%, 1) 100%);
+    background: -moz-linear-gradient(120deg, hsla(313, 38%, 61%, 1) 23%, hsla(217, 100%, 77%, 1) 100%);
+    background: -webkit-linear-gradient(120deg, hsla(313, 38%, 61%, 1) 23%, hsla(217, 100%, 77%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#C276B1", endColorstr="#8AB7FF", GradientType=1);
     width: 250px;
     height: 350px;
     overflow: hidden;
@@ -89,13 +68,11 @@ hover: quando passar o maose por cima;
     transition: .4s;
 }
 
-/*Fazer alteração no font-family
-classe--feliz-para voce
-*/
+
 .happy,
 .toyou {
     position: relative;
-    font-family: didot;
+    /*font-family: didot;*/
     text-align: center;
     backface-visibility: hidden;
     font-size: 30px;
@@ -127,7 +104,7 @@ classe--feliz-para voce
     position: absolute;
     width: 400px;
     height: 300px;
-    border: 3px solid #333;
+    border: 3px solid #000000;
     border-radius: 50%;
 }
 
@@ -148,12 +125,6 @@ classe--feliz-para voce
     height: 0;
 }
 
-/*Decorações:
-    Borda-superior:40px solida, e cor rosa;
-    topo:297px
-    esquerda:210px
-    transforme:rotativo(-5deg).
-*/
 .decorations:before {
     border-top: 40px solid #f15bb5;
     top: 297px;
@@ -198,26 +169,19 @@ classe--feliz-para voce
 }
 
 
-/*
-Posicionando, largura de 130, altura de 5px, fundo de cor azul, esquerda a 60px
-topo de 213px
-*/
-.plate {
+/*.plate {
     position: absolute;
     width: 130px;
     height: 5px;
-    background-color: #00bbf9;
+    background-color: #2500f9;
     left: 60px;
     top: 213px;
-}
+}*/
+
 /*Fim cores bandeiras*/
 
 
-
-/*rever as cores do bolo
-
-
-*/
+/*rever as cores do bolo*/
 .cake {
     position: absolute;
     overflow: hidden;
@@ -278,7 +242,7 @@ topo de 213px
 /*Style the inside part of the card*/
 .cardInside {
     position: absolute;
-    background-color: #c9c9c9;
+    background: rgba(159, 85, 182, 0.692);
     width: 250px;
     height: 350px;
     z-index: -1;
