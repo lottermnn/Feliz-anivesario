@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@400;500;600;700&display=swap');
-
 body {
     height: 100vh;
     background-image: url(./feliz_aniversario/assets/f227098a63ca692f9539572dbcb7398f.jpg);
@@ -101,18 +99,18 @@ body {
     left: -200px;
 }
 
-/*.decorations {
+.decorations {
     position: absolute;
     width: 400px;
     height: 300px;
     border: 3px solid #000000;
     border-radius: 50%;
 }
-*/
+
 
 
 /*trocar as cores das bandeiras*/
-/*.decorations:before,
+.decorations:before,
 .decorations:after,
 .decorationsTwo:before,
 .decorationsTwo:after,
@@ -127,21 +125,21 @@ body {
 }
 
 .decorations:before {
-    border-top: 40px solid #f15bb5;
+    border-top: 40px solid #e271b5;
     top: 297px;
     left: 210px;
     transform: rotate(-5deg);
 }
 
 .decorations:after {
-    border-top: 40px solid #f4d35e;
+    border-top: 40px solid #b85ef4;
     top: 288px;
     left: 260px;
     transform: rotate(-17deg);
 }
 
 .decorationsTwo:before {
-    border-top: 40px solid #00f5d4;
+    border-top: 40px solid #d800f5;
     top: 268px;
     left: 315px;
     transform: rotate(-30deg);
@@ -149,7 +147,7 @@ body {
 
 .decorationsTwo:after,
 .decorationsThree:after {
-    border-top: 40px solid #9b5de5;
+    border-top: 40px solid #e602b4;
     top: 238px;
     left: 355px;
     transform: rotate(-40deg);
@@ -163,21 +161,21 @@ body {
 }
 
 .decorationsThree:before {
-    border-top: 40px solid #00bbf9;
+    border-top: 40px solid #f90091;
     top: 268px;
     left: 315px;
     transform: rotate(-30deg);
 }
-*/
 
-/*.plate {
+
+.plate {
     position: absolute;
     width: 130px;
     height: 5px;
     background-color: #2500f9;
     left: 60px;
     top: 213px;
-}*/
+}
 
 /*Fim cores bandeiras*/
 
@@ -265,45 +263,8 @@ body {
 }
 
 /*Trocar color Font-family */
-p {
-    font-family: 'Playfair', serif;
+.p {
+    font-family: 'Playfair';
     font-weight: 700;
     color: #000000;
 }
-
-.text {
-    overflow: hidden;
-    /* Garante que o texto não vaze para fora da área */
-    border-right: .15em solid rgb(166, 193, 209);
-    /* Adiciona o efeito de cursor piscando */
-    white-space: nowrap;
-    /* Impede a quebra de linha */
-    font-size: 20px;
-    /* Tamanho da fonte */
-    animation: escrever 2s steps(40, end), blink-caret .75s step-end infinite;
-}
-
-
-.name {
-    overflow: hidden;
-    /* Garante que o texto não vaze para fora da área */
-    border-right: .15em solid rgb(166, 193, 209);
-    /* Adiciona o efeito de cursor piscando */
-    white-space: nowrap;
-    /* Impede a quebra de linha */
-    font-size: 20px;
-    /* Tamanho da fonte */
-    animation: escrever 2s steps(40, end), blink-caret .75s step-end infinite;
-    margin-left: 150px;
-}
-
-@keyframes escrever {
-    from {widht: 0;}
-    to {widht: 100%;}
-}
-
-@keyframes blink-caret {
-    from, to {border-color: rgb(166, 193, 209);}
-    50% {border-color:rgb(166, 193, 209);}
-}
-
