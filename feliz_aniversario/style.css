@@ -71,7 +71,7 @@ body {
 .happy,
 .toyou {
     position: relative;
-    font-family: 'Playfair', serif;
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     backface-visibility: hidden;
     font-size: 30px;
@@ -87,7 +87,7 @@ body {
 
 .bday {
     position: relative;
-    font-family: 'Playfair', serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
     text-align: center;
     top: 163px;
@@ -264,7 +264,7 @@ body {
 
 /*Trocar color Font-family */
 .p {
-    font-family: 'Playfair', serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     color: #000000;
 }
